@@ -1,0 +1,295 @@
+/* Header
+	@mixin =================================== */
+.widget_single_post .wid_post_content h6 a:hover,
+.post_meta p a span.admin,
+.widget_archive ul li span,
+.comment-body .reply a,
+.comment-metadata span,
+.comment-reply-title span,
+.comments-title span,
+.sin_post_tag span i,
+.sin_post blockquote p i,
+.pagination ul li:last-child a,
+.widget_tags ul li a:hover,
+.pagination ul li a:hover,
+.pagination ul li a.active,
+.pagination ul li:first-child a,
+.sin_post a,
+.widget_newsletter .sidebar_newsletter p span,
+.widget_category ul li span,
+.widget_single_post .wid_post_content .post_att i,
+.widget_single_post .wid_post_content .post_att span,
+.page_header h1 span,
+.search-submit,
+.widget h3 span,
+.carousel-sin-product .carousel-product-content h6 span,
+.carousel-sin-product .carousel-product-content h3,
+.sin-portfolio .portfolio_details h5 span,
+.single-servie span,
+.single-servie:hover h6,
+.single-testimonial .tes-name span,
+.single-product .product-content h6 span,
+.single-product .product-content h3,
+.single-features span,
+.toolbar_left ul li span,
+.section_title h2 span,
+.pricing_head span,
+.pricing_currency,
+.all_processes .single_process:hover h6,
+.process_icon span,
+.single_price:hover .pricing_head h6,
+.banner_left .banner_left_cell h1 span,
+.product_detail_desc h4 span,
+.product_ratting a,
+.toolbar_left ul li span,
+.question span,
+.sn_post_detail p a span.admin,
+.sn_post_detail a,
+.form_group input[required] + label::after,
+.widget .widget_social > span b,
+.widget .widget_address ul li i,
+.copyright span a,
+.widget .widget_payment span b,
+.Switcher__control i,
+.backtotop i,
+.widget .widget_address ul li span a:hover,
+.widget .widget_social a:hover span,
+.widget .widget_payment a:hover i,
+.sn_post_detail h6 a:hover,
+.sn_post_detail p a:hover,
+.product_price span,
+.share-wrap .product-share-link a:hover,
+.toolbar_left ul li a:hover,
+.single_feature_two span,
+.about_sub h6,
+.single-testimonial-two span,
+.single-testimonial-two .tes-name span,
+.single_feature_two:hover h5,
+.single_service_two span,
+.single_feature_3 span,
+.single_feature_3 a,
+.video_popup_two a i,
+.widget_post_list li a span i,
+.footer_top_two .widget .widget_title h5 span,
+.widget_store_links .widget_links_list li i,
+.widget_about_two .widget_address li i,
+.footer_bottom_two .widget_payment a i,
+.footer_bottom_two .widget_payment span b,
+.banner_left .banner_left_cell h4 span,
+.ingridient_list h6 span,
+.gredient_tab .slick-next::before,
+.gredient_tab .slick-prev::before,
+.footer_top .widget .widget_address ul li i,
+.footer_top .widget .widget_social > span b,
+.footer_top .widget .widget_payment span b,
+.breadcrumb_text p,
+.footer_top .widget .widget_address ul li span a:hover,
+.supp_content h5,
+.promote_sub h2 span,
+.single_promote h6,
+.single_promote ul li i,
+.single_pkg_plan span,
+.advertise_text_left span,
+.sn_contact_icon i,
+.btn_one,
+.call_to_action_right .btn_wrapper .btn_one:hover,
+.sin_post h3 a:hover,
+.toggle-inner i,
+.phone_number span,
+.mobile_toolbar .header_login a:hover,
+.main_menu .sub-menu a:hover,
+.single_pkg_plan a:hover,
+.main_menu > ul > li.current_page_item > a,
+.main_menu > ul > li:hover > a,
+.call_to_action_right .btn_two:hover,
+.single_pkg_plan:hover .btn_two:hover,
+.error_cont_desc h1 span,
+.product_ratting a i,
+.ingredient_slider_detail .product_price p,
+.product_review_tab .nav li a.active,
+.sn_pd_rating a i,
+.ingredient_slider_one .slick-next:hover::before,
+.ingredient_slider_one .slick-prev:hover::before,
+.client_talk p,
+.filter-button li.active,
+.filter-button li:hover,
+#footer .copyright span a {
+  color: #2acb35;
+}
+
+.single_promote:hover {
+  border: 5px solid #2acb35;
+}
+
+.sin-portfolio::before {
+  border-right: 2px solid #2acb35;
+  border-bottom: 2px solid #2acb35;
+}
+
+.sin-portfolio::after {
+  border-left: 2px solid #2acb35;
+  border-top: 2px solid #2acb35;
+}
+
+.widget_tags ul li a:hover,
+.widget .widget_social a:hover,
+.main_menu > ul > li:hover::before,
+.main_menu > ul > .current_page_item::before {
+  border: 1px solid #2acb35;
+}
+
+.form-submit input[type="submit"],
+.comment-reply-title::after,
+.comments-title::after,
+.pagination ul li:last-child:hover,
+.pagination ul li:first-child:hover,
+.single-features:hover,
+.widget h3::after,
+.top_feature_area,
+.testimonial-carousel.owl-theme .owl-dots .owl-dot.active span,
+.testimonial-carousel.owl-theme .owl-dots .owl-dot:hover span,
+.single-testimonial .tes-name::after,
+.single-features h5::after,
+.image-box-half::before,
+.video_popup::after,
+.video_popup a,
+.all_processes .single_process:hover .process_icon,
+.pricing_head::after, .pricing_head::before,
+.product_detail_slider,
+.widget .widget_form form button,
+.login_main_form input[type="submit"],
+.quantity span:hover,
+.product-carousel.owl-theme .owl-dots .owl-dot.active span,
+.product-carousel.owl-theme .owl-dots .owl-dot:hover span,
+.single-testimonial-two .tes-name::after,
+.footer_top_two .widget .widget_title h5::after,
+.link_overlay::after,
+.ingredient_content_heading h5::after,
+.ingredient_content h5::after,
+.footer_top .widget .widget_form form button,
+.call_to_action_area,
+.single_pkg_plan span::after,
+.single_pkg_plan:hover .single_pkg_bottom,
+.about_image .image_two,
+.btn_one:hover::after,
+#magic-line::after,
+.main_menu > ul > li::after,
+.main_menu > ul > .current_page_item::after,
+.btn_one.submit-btn::after,
+.image-box-half::after,
+.promote_sub::before,
+.promote_sub::after,
+.video_popup::before,
+.sn_post_detail a.continue:hover,
+.banner_area.banner_three .btn_two.active,
+.video_popup a {
+  background: #2acb35;
+}
+
+.process_icon,
+.work_process_area_two .single_process .process_icon {
+  border: 1px dashed #2acb35;
+}
+
+.section_title .svg .st0 {
+  stroke: #2acb35;
+}
+
+.header_logo .svg .st1,
+.header_logo .svg .st0,
+.footer_top .widget .widget_logo .svg .st1,
+.footer_top .widget .widget_logo .svg .st0 {
+  fill: #2acb35;
+  stroke: #2acb35;
+}
+
+.all_processes .svg .st2 {
+  stroke: #2acb35;
+}
+
+.product_price {
+  border-bottom: 7px solid #2acb35;
+}
+
+.widget .widget_logo .svg .st1,
+.widget .widget_logo .svg .st0 {
+  fill: #2acb35;
+  stroke: #2acb35;
+}
+
+.mobile_accor_logo .svg .st1,
+.mobile_accor_logo .svg .st0,
+#mobile-logo .svg .st1,
+#mobile-logo .svg .st0,
+.section_title .svg {
+  fill: #2acb35;
+  stroke: #2acb35;
+}
+
+.product_detail_slider .owl-nav button {
+  border-right: 1px solid #2acb35 !important;
+}
+
+.single-product::before {
+  border-right: 2px solid #2acb35;
+  border-bottom: 2px solid #2acb35;
+}
+
+.single-product::after {
+  border-left: 2px solid #2acb35;
+  border-top: 2px solid #2acb35;
+}
+
+.filter-button li.active::after,
+.filter-button li:hover::after {
+  border: 1px solid #2acb35;
+}
+
+.btn_one,
+.btn_two,
+.link_overlay::after,
+.sn_post_detail a.continue {
+  border: 2px solid #2acb35;
+}
+
+.btn_one:hover::before,
+.btn_two:hover::before {
+  background-color: #2acb35;
+}
+
+.btn_one:hover,
+.btn_two:hover,
+.btn_one,
+.btn_two {
+  border-color: #2acb35;
+}
+
+.btn_one,
+.btn_two {
+  color: #2acb35;
+}
+
+.btn_two.active {
+  background: #2acb35;
+}
+
+#magic-line {
+  border: 1px solid #2acb35;
+}
+
+.supp_icon {
+  -webkit-box-shadow: 0px 2px 51px rgba(241, 182, 1, 0.25);
+          box-shadow: 0px 2px 51px rgba(241, 182, 1, 0.25);
+}
+
+.video_popup_two a::after {
+  border: 3px solid #2acb35;
+}
+
+.dot {
+  border: 1px solid #2acb35;
+}
+
+.bnr_title_img .svg {
+  fill: #2acb35;
+}
